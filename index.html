@@ -1,170 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jumanji Studio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #121212;
-            color: #fff;
-        }
-        header {
-            background-color: #1e1e1e;
-            padding: 1rem;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        nav {
-            margin-top: 1rem;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1rem;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            padding: 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .section {
-            margin-bottom: 3rem;
-        }
-        .section h2 {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-            border-bottom: 2px solid #fff;
-            display: inline-block;
-        }
-        .game-gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-        .game-item {
-            background-color: #1e1e1e;
-            border-radius: 8px;
-            overflow: hidden;
-            flex: 1 1 calc(33% - 1rem);
-            min-width: 250px;
-        }
-        .game-item img {
-            width: 100%;
-            display: block;
-        }
-        .game-item .description {
-            padding: 1rem;
-        }
-        footer {
-            background-color: #1e1e1e;
-            padding: 1rem;
-            text-align: center;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Portfolio de jeu</h1>
-        <nav>
-            <a href="#about">À propos</a>
-            <a href="#gallery">Gallerie</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    
-    <div class="container">
-        <section id="about" class="section">
-            <h2>À propos</h2>
-            <p>L'équipe Jumanji est composée de Nicolas et Karless. Nous aimons les jeux dynamiques et vivants qui impliquent des défis exitants et difficiles !  
-            </p>
-        </section>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jumanji Studio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+            body {
+                font-family: 'Roboto', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #121212;
+                color: #fff;
+            }
+            header {
+                background-color: #1e1e1e;
+                padding: 1rem;
+                text-align: center;
+            }
+            header h1 {
+                margin: 0;
+                font-size: 2.5rem;
+            }
+            nav {
+                margin-top: 1rem;
+            }
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                margin: 0 1rem;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+            .container {
+                padding: 2rem;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .section {
+                margin-bottom: 3rem;
+            }
+            .section h2 {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+                border-bottom: 2px solid #fff;
+                display: inline-block;
+            }
+            .game-gallery {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+            .game-item {
+                background-color: #1e1e1e;
+                border-radius: 8px;
+                overflow: hidden;
+                flex: 1 1 calc(33% - 1rem);
+                min-width: 250px;
+            }
+            .game-item img {
+                width: 100%;
+                display: block;
+            }
+            .game-item .description {
+                padding: 1rem;
+            }
+            footer {
+                background-color: #1e1e1e;
+                padding: 1rem;
+                text-align: center;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Portfolio de jeu</h1>
+            <nav>
+                <a href="#about">À propos</a>
+                <a href="#gallery">Gallerie</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        
+        <div class="container">
+            <section id="about" class="section">
+                <h2>À propos</h2>
+                <p>L'équipe Jumanji est composée de Nicolas et Karless. Nous aimons les jeux dynamiques et vivants qui impliquent des défis exitants et difficiles !  
+                </p>
+            </section>
 
-        <section id="gallery" class="section">
-            <h2></h2>
-            <div class="game-gallery">
-                <div class="game-item">
-                    <div style="display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    ">
-                        <img src="SugarBeast.webp" style=" width: 25%; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" alt="Game 1">
-                    </div>
-                    <div class="description">
-                                                    
-                    <h2>Surgabeast : Un jeu de survie dans un monde sucré</h2>
-                    <br>
-                    Plongez dans une aventure palpitante où l'agilité, la réflexion et la stratégie sont vos meilleurs alliés ! Notre jeu de plateforme propose une expérience immersive avec des niveaux variés, des obstacles dynamiques et des mécanismes de gameplay uniques.
-                    Vous incarnez un personnage courageux traversant un monde fascinant rempli de défis. Entre plateformes mobiles,  et ennemis rusés, chaque niveau mettra vos compétences à rude épreuve.
-                    
-                    <h3>Caractéristiques principales :</h3>
-                    <ul>
-                        <li>
-                            Genre : Jeu de plateforme en 2D
-                        </li>
-                        <li>
-                            Mouvements fluides et précis : Maîtrisez les sauts, esquives pour surmonter les obstacles.
-                        </li>
-                        <li>
-                            Mécaniques innovantes : Explorez des niveaux où les plateformes bougent, tournent, et oscillent pour vous déséquilibrer et des sucrerie qui vous font d' obstacle 
-                        </li>
-                        <li>
-                            Environnements variés : Des paysages enchanteurs, des sucrerie de toute les couleur 
-                        </li>    
-                        <li>
-                            Univers visuel et sonore immersif : Une direction artistique soignée et une bande-son dynamique qui évolue avec l'action.
-                        </li>
-                    </ul>
-                    
-                    <h3>Notre vision</h3>
-                    Ce jeu est bien plus qu'un simple défi technique. Nous avons voulu créer une expérience qui combine amusement, créativité et réflexion. Inspiré par les classiques intemporels et enrichi de mécaniques modernes, il promet de captiver les joueurs de tout âge.
-                    
-                    <h3>Objectif</h3>
-                    Repoussez vos limites pour atteindre la fin de chaque niveau . Serez-vous capable de relever tous les défis ?
+            <section id="gallery" class="section">
+                <div class="game-gallery">
+                    <div class="game-item">
+                        <div style="display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        ">
+                            <img src="SugarBeast.webp" style=" width: 25%; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" alt="Game 1">
+                        </div>
+                        <div class="description">                              
+                        <h2>Surgabeast : Un jeu de survie dans un monde sucré</h2>
+                        <br>
+                        Ce jeu te permet de pour ramasser un tas de bonbons tout en explorant des niveaux où ça se passe de façon imprévu. Des gâteaux qui roulent, des bonbons qui sautent et des sucreries qui bougent comme dans un vrai party!
+                        Plongez dans une aventure palpitante où l'agilité, la réflexion et la stratégie sont vos meilleurs alliés ! Notre jeu de plateforme propose une expérience immersive avec des niveaux variés, des obstacles dynamiques et des mécanismes de gameplay uniques.
+                        Vous incarnez un personnage courageux traversant un monde fascinant rempli de défis. Entre plateformes mobiles,  et ennemis rusés, chaque niveau mettra vos compétences à rude épreuve.
+                        <h3>Caractéristiques principales :</h3>
+                        <ul>
+                            <li>
+                                Genre : Jeu de plateforme en 2D
+                            </li>
+                            <li>
+                                Mouvements fluides et précis : Maîtrisez les sauts, esquives pour surmonter les obstacles.
+                            </li>
+                            <li>
+                                Mécaniques amusantes : Explorez des niveaux où les plateformes bougent, tournent, et oscillent pour vous déséquilibrer et des sucrerie qui vous font d'obstacle 
+                            </li>
+                            <li>
+                                Environnements variés : Des paysages enchanteurs, des sucrerie de toute les couleur 
+                            </li>    
+                            <li>
+                                Univers visuel et sonore immersif : Une direction artistique soignée et une bande-son dynamique qui évolue avec l'action.
+                            </li>
+                        </ul>
+                        
+                        <h3>Notre vision</h3>
+                        Ce jeu est bien plus qu'un simple défi technique. Nous avons voulu créer une expérience qui combine amusement, créativité et réflexion. Inspiré par les classiques et enrichi de mécaniques étonnantes, il promet de captiver les joueurs de tout âge.
+                        
+                        <h3>Objectif</h3>
+                        Repoussez vos limites pour atteindre la fin de chaque niveau . Serez-vous capable de relever tous les défis ?
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="download-container">
-                <h1>Télécharger le jeu</h1>
-                <hr>
-                <p>Cliquer pour télécharger le jeu 2d:</p>
-                <ul>
+                <div class="download-container">
+                    <h1>Télécharger le jeu</h1>
+                    <hr>
+                    <p>Cliquer pour télécharger le jeu 2d:</p>
+                    <ul>
+                        <li>
+                            <a href="https://crosemont-my.sharepoint.com/:u:/g/personal/0664527_crosemont_qc_ca/EfPYO9G7QDFNsMJXWAetlMIBknVmecvRL-ZRGTSD5NYr6w?e=6uQ8aw" download>Niveau 2d - 1</a>
+                        </li>
+                        <li>
+                            <a href="https://crosemont-my.sharepoint.com/:u:/g/personal/2328870_crosemont_qc_ca/EXsq183FYodChVSxDuJKr-EBcGGqw0WPSrjsc2UqUP3uog?e=8kmtBd" download>Niveau 2d - 2</a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <p>Cliquer pour télécharger le jeu 3d:</p>
                     <li>
-                        <a href="https://crosemont-my.sharepoint.com/:u:/g/personal/0664527_crosemont_qc_ca/EfPYO9G7QDFNsMJXWAetlMIBknVmecvRL-ZRGTSD5NYr6w?e=6uQ8aw" download>Niveau 2d - 1</a>
+                        <a href="https://crosemont-my.sharepoint.com/:u:/g/personal/0664527_crosemont_qc_ca/EW30cvx5Z7VFqeBxfeRMNkgBrm3IMTs4QkeNx5zPQOv16w?e=lO4sWL" download>Niveau 3d</a>
                     </li>
-                    <li>
-                        <a href="https://crosemont-my.sharepoint.com/:u:/g/personal/2328870_crosemont_qc_ca/EXsq183FYodChVSxDuJKr-EBcGGqw0WPSrjsc2UqUP3uog?e=8kmtBd" download>Niveau 2d - 2</a>
-                    </li>
-                </ul>
-                <hr>
-                <p>Cliquer pour télécharger le jeu 3d:</p>
-                <li>
-                    <a href="https://crosemont-my.sharepoint.com/:u:/g/personal/0664527_crosemont_qc_ca/EW30cvx5Z7VFqeBxfeRMNkgBrm3IMTs4QkeNx5zPQOv16w?e=lO4sWL" download>Niveau 3d</a>
-                </li>
-                
-            </div>
-        </section>
-
-        <section id="contact" class="section">
-            <h2>Contact</h2>
-            <p>Contactez-nous à <a href="mailto:developer@example.com">jumanji@jumanji.com</a>.</p>
-        </section>
-    </div>
-    <footer>
-        <p>&copy; 2024 Jumanji. All rights reserved.</p>
-    </footer>
-</body>
+                </div>
+            </section>
+            <section id="contact" class="section">
+                <h2>Contact</h2>
+                <p>Contactez-nous à <a href="mailto:developer@example.com">jumanji@jumanji.com</a>.</p>
+            </section>
+        </div>
+        <footer>
+            <p>&copy; 2024 Jumanji. All rights reserved.</p>
+        </footer>
+    </body>
 </html>
